@@ -15,11 +15,6 @@ inline T clamp(T val, T min, T max)
 	return val;
 }
 
-inline float sign(float f)
-{
-	return f<0.0f?-1.0f:1.0f;
-}
-
 template<typename T, typename TB>
 inline T mix(const T a, const T b, TB amount)
 {
